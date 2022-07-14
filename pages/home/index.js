@@ -7,7 +7,7 @@ export default function Home(){
     console.log('Hola');
     return(
         <div className={styles.main}>
-            <h2>Hola</h2>
+            <h2>Agregar Usuario</h2>
             <form>
             <input type='text' placeholder='Nombre'/>
             <input type='email' placeholder='Email'/>
