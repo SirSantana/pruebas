@@ -7,7 +7,10 @@ export default function Home(){
     console.log('Hola');
     return(
         <div className={styles.main}>
+<<<<<<< HEAD
             <h2>Hola</h2>
+=======
+>>>>>>> origin/main
         </div>
     )
 }
