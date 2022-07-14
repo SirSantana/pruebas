@@ -2,8 +2,8 @@
 const nextConfig = {
   reactStrictMode: true,
   env: {
-    NEXT_PUBLIC_USER: process.env.NEXT_PUBLIC_USER,
-    NEXT_PUBLIC_PASSWORD: process.env.NEXT_PUBLIC_PASSWORD,
+    USER: process.env.USER,
+    PASSWORD: process.env.PASSWORD,
     BASE_URL:'http://localhost:3000',
   }
 }
