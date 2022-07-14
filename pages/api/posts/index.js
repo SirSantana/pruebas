@@ -1,4 +1,4 @@
-import DBConnect from "../../../dbConnect";
+import DBConnect from "../../../libs/dbConnect";
 import postModel from "../../../models/postModel";
 
 DBConnect()
