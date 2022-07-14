@@ -8,6 +8,12 @@ export default function Home(){
     return(
         <div className={styles.main}>
             <h2>Hola</h2>
+            <form>
+            <input type='text' placeholder='Nombre'/>
+            <input type='email' placeholder='Email'/>
+            <input type='submit' placeholder='Agregar'/>
+            </form>
+
         </div>
     )
 }
